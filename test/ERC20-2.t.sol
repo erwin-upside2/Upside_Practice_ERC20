@@ -112,5 +112,4 @@ contract UpsideTokenTest is Test {
         upside_token.permit(alice, address(this), 10 ether, 1 days, v, r, s);
     }
 
-
 }
